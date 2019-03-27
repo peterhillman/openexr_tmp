@@ -67,6 +67,7 @@
 #include "ImfStringVectorAttribute.h"
 #include "ImfTimeCodeAttribute.h"
 #include "ImfVecAttribute.h"
+#include "ImfIDManifestAttribute.h"
 #include "ImfNamespace.h"
 #include "ImfExport.h"
 
@@ -378,5 +379,10 @@ IMF_STD_ATTRIBUTE_DEF
 
 IMF_STD_ATTRIBUTE_DEF (dwaCompressionLevel, DwaCompressionLevel, float)
 
+
+//
+// ID Manifest
+//
+IMF_STD_ATTRIBUTE_DEF( idManifest,IDManifest,CompressedIDManifest)
 
 #endif

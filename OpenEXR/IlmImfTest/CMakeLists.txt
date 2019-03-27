@@ -60,6 +60,7 @@ ADD_EXECUTABLE ( IlmImfTest
   testWav.cpp
   testXdr.cpp
   testYca.cpp
+  testIDManifest.cpp
  )
 
 SET_ILMBASE_INCLUDE_DIRS( IlmImfTest )

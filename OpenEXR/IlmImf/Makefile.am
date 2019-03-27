@@ -90,7 +90,9 @@ libIlmImf_la_SOURCES = ImfForward.h ImfAttribute.cpp ImfBoxAttribute.cpp ImfCRgb
 	               ImfFastHuf.h ImfFastHuf.cpp \
 	               ImfFloatVectorAttribute.h ImfFloatVectorAttribute.cpp \
 	               ImfRle.h ImfRle.cpp ImfSimd.h \
-	               ImfSystemSpecific.cpp ImfZip.h ImfZip.cpp
+	               ImfSystemSpecific.cpp ImfZip.h ImfZip.cpp \
+			  ImfIDManifest.h ImfIDManifest.cpp \
+			  ImfIDManifestAttribute.h ImfIDManifestAttribute.cpp 
 
 
 libIlmImf_la_LDFLAGS = @ILMBASE_LDFLAGS@ -version-info @LIBTOOL_VERSION@ \
@@ -163,7 +165,9 @@ libIlmImfinclude_HEADERS = ImfForward.h ImfAttribute.h ImfBoxAttribute.h \
 			   ImfMisc.h          \
 			   ImfPartHelper.h \
 			   ImfDeepImageState.h \
-			   ImfDeepImageStateAttribute.h
+			   ImfDeepImageStateAttribute.h \
+			   ImfIDManifest.h \
+			   ImfIDManifestAttribute.h
 
 noinst_HEADERS = ImfCompressor.h    \
 		 ImfRleCompressor.h \

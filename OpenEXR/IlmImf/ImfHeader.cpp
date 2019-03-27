@@ -64,6 +64,7 @@
 #include <ImfRationalAttribute.h>
 #include <ImfStringAttribute.h>
 #include <ImfStringVectorAttribute.h>
+#include <ImfIDManifestAttribute.h>
 #include <ImfTileDescriptionAttribute.h>
 #include <ImfTimeCodeAttribute.h>
 #include <ImfVecAttribute.h>
@@ -1274,7 +1275,7 @@ staticInitialize ()
 	V3fAttribute::registerAttributeType();
 	V3iAttribute::registerAttributeType();
 	DwaCompressor::initializeFuncs();
-
+    IDManifestAttribute::registerAttributeType();
 	initialized = true;
     }
 }

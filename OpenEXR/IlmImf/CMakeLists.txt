@@ -168,6 +168,8 @@ SET ( ILMIMF_SRCS
   ImfRle.cpp
   ImfSystemSpecific.cpp
   ImfZip.cpp
+  ImfIDManifest.cpp
+  ImfIDManifestAttribute.cpp
 )
 
 IF (BUILD_B44EXPLOGTABLE)
@@ -350,6 +352,8 @@ INSTALL (
     ImfDeepImageState.h
     ImfDeepImageStateAttribute.h
     ImfFloatVectorAttribute.h
+    ImfIDManifest.h
+    ImfIDanifestAttribute.h
 
   DESTINATION
     include/OpenEXR
