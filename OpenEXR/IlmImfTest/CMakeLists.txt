@@ -29,6 +29,7 @@ ADD_EXECUTABLE ( IlmImfTest
   testHuf.cpp
   testInputPart.cpp
   testIsComplete.cpp
+  testLargeDataWindowOffsets.cpp
   testLineOrder.cpp
   testLut.cpp
   testMagic.cpp
